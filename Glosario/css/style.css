@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 1.1px;
+}
+
+body {
+	background: linear-gradient(207.8deg, #201E1C 16.69%, #11135a 100%);
+}
+
+.contenedor {
+	width: 90%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 40px 0;
+	display: grid;
+	gap: 20px;
+	padding: 65px;
+}
+
+.titulo {
+	font-size: 24px;
+	padding: 20px 0;
+}
+
+.contenedor-palabras {
+	display: grid;
+	top: 10rem;
+	grid-template-columns: 3fr 3fr;
+	gap: 20px;
+}
+
+.card {
+	border: #fff solid 1px;
+	border-radius: 10px;
+	min-width: auto;
+	min-height: auto;
+	padding: 20px;
+	position: relative;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center center;
+
+	display: flex;
+
+}
+
+.card .textos {
+	height: 100%;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+	color:#fff;
+	
+}
+
+.r-grafo{
+	color: gold;
+	text-decoration: none;
+}
+
+.banner ul {
+	list-style: none;
+}
+
+.banner ul li {
+	margin: 15px;
+	font-weight: bold;
+}
+
+.card h3 a{ 
+	margin-bottom: 20px;
+	color: gold;
+	text-decoration: none;
+}
+
+.card h3{
+	padding: 15px;
+	border-bottom: solid 1px #fff;
+}
+
+.card li{
+	margin: 5px 5px;
+}
+
+.read-more-state{
+	display: none;
+}
+
+.read-more-target {
+	opacity: 0;
+	max-height: 0;
+	font-size: 0;
+	transition: .25s ease;
+}
+
+.read-more-state:checked ~ .read-more-wrap .read-more-target {
+	opacity: 1;
+	font-size: inherit;
+	max-height: 999em;
+}
+
+.read-more-state:checked ~ .read-more-trigger::before {
+	content: 'Ver menos'
+}
+  
+.read-more-state ~ .read-more-trigger::before {
+	content: 'Ver mas';
+}
+  
+  
+.read-more-trigger {
+	cursor: pointer;
+	display: inline-block;
+	padding: 0 .5em;
+	color:#fff;
+	font-size: .9em;
+	line-height: 2;
+	border: 1px solid #ddd;
+	border-radius: .25em;
+}
+
+@keyframes line {
+	0% {
+	  background-position-x: 390px;
+	}
+}

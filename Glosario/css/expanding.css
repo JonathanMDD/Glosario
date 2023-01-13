@@ -1,0 +1,177 @@
+header{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 350px;
+}
+
+#mySidenav a {
+    position: absolute; /* Position them relative to the browser window */
+    left: -115px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding: 15px; /* 15px padding */
+    width: 150px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 20px; /* Increase font size */
+    color: white; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+    text-align: center;
+}
+  
+#mySidenav a:hover {
+    left: 0px; /* On mouse-over, make the elements appear as they should */
+}
+  
+/* The about link: 20px from the top with a green background */
+#inicio {
+    top: 20px;
+    background-color: #04AA6D;
+}
+  
+#instrucciones {
+    top: 80px;
+    background-color: #2196F3; /* Blue */
+}
+    
+#sbr-nstr{
+    top: 140px;
+    background-color: #f44336; /* Red */
+}
+  
+#contacto {
+    top: 225px;
+    background-color: #555 /* Light Black */
+}
+
+.glosario{
+    width: auto;
+    font-size: 25px;
+    background-image: url('https://img.freepik.com/free-photo/eucalyptus-silver-dollar-white-marble-banner_53876-129661.jpg?w=2000');
+    background-attachment: fixed;
+    color: #1a427e;
+}
+
+.main-container{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* The grid: Three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    color: rgb(206, 193, 193);
+    border: 1px solid #aaa;
+    border-radius: 1rem;
+    margin: 10px;
+    background-color: #f1f1f1;
+}
+  
+.containerTab {
+    display: none;
+    background: rgb(127, 131, 129);
+    padding: 20px;
+    color: white;
+    border-radius: 1rem;
+}
+  
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+/* Closable button inside the image */
+.closebtn {
+    float: right;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+}
+
+* {
+    box-sizing:border-box;
+}
+  
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+  
+.container {
+    padding: 64px;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both
+}
+  
+.column-66 {
+    float: left;
+    width: 66.66666%;
+    padding: 20px;
+}
+  
+.column-33 {
+    float: right;
+    width: 33.33333%;
+    padding: 20px;
+}
+  
+.large-font {
+    font-size: 48px;
+}
+  
+.xlarge-font {
+    font-size: 64px
+}
+  
+.button {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #04AA6D;
+}
+  
+img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: auto;
+}
+  
+@media screen and (max-width: 1000px) {
+    .column-66,
+    .column-33 {
+      width: 100%;
+      text-align: center;
+    }
+    img {
+      margin: auto;
+    }
+}

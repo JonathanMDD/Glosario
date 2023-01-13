@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
+  img{
+    float: left;
+    width: auto;
+    height: 55px;
+    padding-right: 10px;
+  }
+
+  
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow:auto;
+  }
+  header {
+    display: grid;
+    min-width: 680px;
+    background: rgba(0,0,0,0.9);
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+  }
+  
+  nav {
+    display: grid;
+    align-items: center;
+  }
+  nav ul {
+    list-style: none;
+    overflow: hidden; /* Limpiamos errores de float */
+  }
+  nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+  }
+  nav ul li a {
+    display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+    padding: 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    background: #3e45ad;
+  }
+  .contenido {
+    padding-top: 50px;
+  }
+  

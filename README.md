@@ -1,4 +1,4 @@
-# Jonathan-Diaz---Practica
+# Glosario - Léxico de las emociones --- Practica
 
 Desarrollo de un glosario léxico de las emociones como material de apoyo para una tesis en la Universidad de Concepción.
 

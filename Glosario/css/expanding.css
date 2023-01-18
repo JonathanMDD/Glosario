@@ -85,6 +85,12 @@ header{
     color: white;
     border-radius: 1rem;
 }
+
+.containerTab a {
+    text-decoration: none;
+    color: #f44336; 
+    font-size: 22px;
+}
   
 /* Clear floats after the columns */
 .row:after {
@@ -116,6 +122,7 @@ header{
   
 body {
     margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
   
@@ -142,11 +149,11 @@ body {
 }
   
 .large-font {
-    font-size: 48px;
+    font-size: 36px;
 }
   
 .xlarge-font {
-    font-size: 64px
+    font-size: 48px
 }
   
 .button {
@@ -170,7 +177,7 @@ img {
     margin: auto;
 }
   
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
     .column-66,
     .column-33 {
       width: 100%;
@@ -178,5 +185,9 @@ img {
     }
     img {
       margin: auto;
+    }
+    .xlarge-font{
+        text-align: center;
+        font-size: 28px;
     }
 }

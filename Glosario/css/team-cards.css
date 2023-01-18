@@ -86,7 +86,7 @@ button:hover {
     opacity: 0.8;
 }
 
-button i {
+button a {
     color: #fff;
     font-size: 1.4em;
 }
@@ -96,14 +96,10 @@ button.github {
     background-color: #24292e;
 } 
 
-button.twitter {
-    background-color: #1da1f2;
-}
-
-button.pinterest {
+button.email {
     background-color: #d3263a;
 } 
 
-button.facebook {
-    background-color: #1d4ff2
+button.orcid {
+    background-color: #50eb21
 }

@@ -44,7 +44,7 @@ input[type="submit"] {
 body{
 	height: 100%; 
 	font-family: 'Noto Sans', sans-serif;
-  background-color: #ab4493; 
+  background-color: #2bd18f;
 }
 
 
@@ -67,7 +67,7 @@ input{
 	border-radius: 5px;  
 	border-style: solid; 
 	border-width: 1px; 
-	border-color: #ab4493; 
+	border-color: #2bd18f; 
 	margin-top: 10px;  
 	padding-left: 10px;
   margin-bottom: 20px; 
@@ -81,7 +81,7 @@ textarea{
 	border-radius: 5px;  
 	border-style: solid; 
 	border-width: 1px; 
-	border-color: #ab4493; 
+	border-color: #2bd18f; 
 	margin-top: 10px;  
 	padding-left: 10px;
   margin-bottom: 20px; 
@@ -102,8 +102,8 @@ button{
 	margin-bottom: 20px; 
 	margin-top: 10px; 	
 	text-transform: uppercase;
-	background-color: #ab4493; 
-	border-color: #ab4493; 
+	background-color: #2bd18f; 
+	border-color: #2bd18f; 
 	border-style: solid; 
 	border-radius: 10px;	
 	width: 420px;   
@@ -117,7 +117,7 @@ button p{
 
 
 span{
-	color: #ab4493; 
+	color: #2bd18f; 
 }
 
 
@@ -131,7 +131,7 @@ h1{
 	font-size: 39px;  
 	text-align: letf; 
 	padding-bottom: 20px; 
-	color: #ab4493;
+	color: #2bd18f;
 }
 
 

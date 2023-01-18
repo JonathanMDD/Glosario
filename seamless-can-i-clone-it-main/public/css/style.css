@@ -67,7 +67,7 @@ img{
   --blue-light: hsl(210deg, 47%, 74%);
   --blue-dark: #2e577f;
   --orange-light: hsl(34deg, 93%, 77%);
-  --orange-dark: #b66a07;
+  --orange-dark: #e78e1a;
   --purple-light: hsl(231deg, 44%, 76%);
   --purple-dark: #334084;
   --yellow-light: hsl(59, 79%, 63%);
@@ -227,40 +227,44 @@ body {
   background: var(--text-bg);
   transition: opacity 500ms;
   opacity: 0;
+  font-size: 14px;
+}
+.largo{
+  font-size: 16px;
 }
 .orbit li:hover > a {
   opacity: 1;
 }
 .orbit li:nth-child(1) {
-  --icon-bg: var(--orange-light);
+  --icon-bg: var(--orange-dark);
   transform: translate(15rem, 0rem);
 }
 .orbit li:nth-child(2) {
-  --icon-bg: var(--blue-light);
+  --icon-bg: var(--blue-dark);
   transform: translate(10rem, 10rem);
 }
 .orbit li:nth-child(3) {
-  --icon-bg: var(--green-light);
+  --icon-bg: var(--red-dark);
   transform: translate(0, 15rem);
 }
 .orbit li:nth-child(4) {
-  --icon-bg: var(--red-light);
+  --icon-bg: var(--green-dark);
   transform: translate(-10rem, 10rem);
 }
 .orbit li:nth-child(5) {
-  --icon-bg: var(--pink-light);
+  --icon-bg: var(--blue-dark);
   transform: translate(-15rem, 0rem);
 }
 .orbit li:nth-child(6) {
-  --icon-bg: var(--yellow-light);
+  --icon-bg: var(--pink-dark);
   transform: translate(-10rem, -10rem);
 }
 .orbit li:nth-child(7) {
-  --icon-bg: var(--brown-light);
+  --icon-bg: var(--brown-dark);
   transform: translate(0, -15rem);
 }
 .orbit li:nth-child(8) {
-  --icon-bg: var(--red-light);
+  --icon-bg: var(--yellow-dark);
   transform: translate(10rem, -10rem);
 }
 .orbit li:nth-child(9) {
